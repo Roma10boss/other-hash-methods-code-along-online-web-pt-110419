@@ -1,6 +1,6 @@
 require 'pry'
 
-def get_the_keys method
+def get_the_keys_method
 groceries = {
  dairy: ["milk", "yogurt", "cheese"],
 vegetable: ["carrots", "broccoli", "cucumbers"],
