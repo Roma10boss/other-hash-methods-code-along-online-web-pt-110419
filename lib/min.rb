@@ -1,6 +1,6 @@
 require 'pry'
 
-def 
+def get_the_min
   groceries = {
  dairy: ["milk", "yogurt", "cheese"],
  vegetable: ["carrots", "broccoli", "cucumbers"],
@@ -10,5 +10,5 @@ def
 
 def get_the_min(groceries)
   #code your solution here!
-  groceries
+  groceries.min
 end
